@@ -1,0 +1,7 @@
+# Railway uses Nixpacks to build. Tesseract + libheif are needed at runtime
+# for parse_addendum.py (OCR on photo uploads, HEIC support).
+[phases.setup]
+aptPkgs = ["tesseract-ocr", "libheif-dev", "libheif1"]
+
+[start]
+cmd = "python bot.py"
