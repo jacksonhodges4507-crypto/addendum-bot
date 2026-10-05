@@ -1,5 +1,19 @@
 # addendum-bot
 
+**For Utah real-estate agents who fill out the same addendum over and over.**
+
+An addendum to a Real Estate Purchase Contract is a short, repetitive
+document: the same statutory form, the same boilerplate, and a handful of
+deal-specific numbers. Agents fill them by hand in a PDF editor, often on a
+phone, usually against a deadline -- and a wrong digit in a price or a date is
+a legal problem rather than a formatting one.
+
+This moves that job into Discord, where the agent already is. Answer seven
+questions and it returns a filled, correctly formatted addendum PDF. Send it a
+photo of an addendum that already exists and it reads the terms off that one,
+so the next in the chain starts pre-filled instead of blank -- which is the
+actual pain, since addenda come in sequences that mostly repeat each other.
+
 Discord bot that generates filled REPC addendum PDFs. Slash commands:
 - `/addendum` — answer 7 questions, get a PDF.
 - `/upload_addendum` — upload a photo or PDF of an existing addendum to pre-fill the next one.
